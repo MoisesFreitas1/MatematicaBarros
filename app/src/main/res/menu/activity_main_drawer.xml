@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cursosfree"
+            android:icon="@drawable/ic_assistir"
+            android:title="Cursos grátis" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Professores">
+            <menu>
+                <item
+                    android:id="@+id/nav_delon"
+                    android:icon="@drawable/prof"
+                    android:title="Delon"/>
+                <item
+                    android:id="@+id/nav_davi"
+                    android:icon="@drawable/prof"
+                    android:title="Davi"/>
+                <item
+                    android:id="@+id/nav_felipe"
+                    android:icon="@drawable/prof"
+                    android:title="Felipe"/>
+                <item
+                    android:id="@+id/nav_liana"
+                    android:icon="@drawable/prof"
+                    android:title="Liana"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Contato">
+        <menu>
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/email"
+                android:title="E-mail"/>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/face"
+                android:title="Facebook"/>
+            <item
+                android:id="@+id/nav_site"
+                android:icon="@drawable/internet"
+                android:title="Site"/>
+        </menu>
+    </item>
+
+</menu>

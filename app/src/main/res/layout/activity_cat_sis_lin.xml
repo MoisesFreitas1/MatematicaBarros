@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listras"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|right">
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/toolbar_title"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:foregroundGravity="left" />
+                <ImageView
+                    android:id="@+id/iv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="0" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-4218805607147921/4645400490"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp">
+        </com.google.android.gms.ads.AdView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_probsis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_probsis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3sisequ"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_probsis"
+                    android:id="@+id/tv_probsis"
+                    android:text="Problemas com sistemas de equação"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_probsis"
+                    android:id="@+id/tv_des_probsis"
+                    android:text="Resoluçao de problemas de sistemas de equação com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_siseq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_siseq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3siseq"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_siseq"
+                    android:id="@+id/tv_siseq"
+                    android:text="Sistemas de equações"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_siseq"
+                    android:id="@+id/tv_des_siseq"
+                    android:text="Professor Davi Barros mostra o método da soma para resolver sistemas de equação."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_spd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_spd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod5spd"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_spd"
+                    android:id="@+id/tv_spd"
+                    android:text="Sistemas de proporção direta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_spd"
+                    android:id="@+id/tv_des_spd"
+                    android:text="Aula sobre sistemas de proporção direta com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_spi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_spi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod5spi"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_spi"
+                    android:id="@+id/tv_spi"
+                    android:text="Sistemas de proporção inversa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_spi"
+                    android:id="@+id/tv_des_spi"
+                    android:text="Aula sobre sistemas de proporção inversa com o professor Davi Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_matr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_matr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod10logmatr"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_matr"
+                    android:id="@+id/tv_matr"
+                    android:text="Introdução à matrizes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_matr"
+                    android:id="@+id/tv_des_matr"
+                    android:text="Aula de introdução às matrizes com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_cramer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_cramer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod10logcramer"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_cramer"
+                    android:id="@+id/tv_cramer"
+                    android:text="Regra de Cramer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_cramer"
+                    android:id="@+id/tv_des_cramer"
+                    android:text="Aula sobre a Regra de Cramer com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_laplace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_laplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod10loglaplace"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_laplace"
+                    android:id="@+id/tv_laplace"
+                    android:text="Teorema de Laplace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_laplace"
+                    android:id="@+id/tv_des_laplace"
+                    android:text="Professor Delon Barros explica como utilizar o teoria de Laplace no cálculo do determinante de uma matriz."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_dissislin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_dissislin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod10logsislin"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_dissislin"
+                    android:id="@+id/tv_dissislin"
+                    android:text="Discussão sobre sistemas lineares"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_dissislin"
+                    android:id="@+id/tv_des_dissislin"
+                    android:text="Discussão sobre sistemas lineares com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

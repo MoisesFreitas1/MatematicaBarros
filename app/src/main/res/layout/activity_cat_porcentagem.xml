@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listras"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/black"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|right">
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:id="@+id/toolbar_title"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="1"
+                    android:foregroundGravity="left" />
+                <ImageView
+                    android:id="@+id/iv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_weight="0" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6303877676651382/8701014153"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp">
+        </com.google.android.gms.ads.AdView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_lianafracoes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_lianafracoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lianafracoes"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_lianafracoes"
+                    android:id="@+id/tv_lianafracoes"
+                    android:text="Operações com frações"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_lianafracoes"
+                    android:id="@+id/tv_des_lianafracoes"
+                    android:text="Aprenda a multiplicar e dividir franções com a professora Liana Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_r3sc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_r3sc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3r3sc"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_r3sc"
+                    android:id="@+id/tv_r3sc"
+                    android:text="Regra de três simples e composta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_r3sc"
+                    android:id="@+id/tv_des_r3sc"
+                    android:text="Aprenda regra de três simples e composta com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_probfr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_probfr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod4probf"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_probfr"
+                    android:id="@+id/tv_probfr"
+                    android:text="Problemas com frações"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_probfr"
+                    android:id="@+id/tv_des_probfr"
+                    android:text="Professor Delon Barros responde problemas com frações."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_rzpr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_rzpr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod5rzprop"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_rzpr"
+                    android:id="@+id/tv_rzpr"
+                    android:text="Razão e Proporção"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_rzpr"
+                    android:id="@+id/tv_des_rzpr"
+                    android:text="Professor Delon Barros ensina razão e proporção."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_rzesp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_rzesp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod5rzespecial"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_rzesp"
+                    android:id="@+id/tv_rzesp"
+                    android:text="Caso especial de razão"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_rzesp"
+                    android:id="@+id/tv_des_rzesp"
+                    android:text="Professor Delon Barros demonstra um caso especial de razão."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_porc1f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="false"
+        app:cardPreventCornerOverlap="false"
+        app:cardMaxElevation="3dp"
+        app:cardCornerRadius="4dp"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:id="@+id/iv_porc1f"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/mod3porc1"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:layout_below="@+id/iv_porc1f"
+                android:id="@+id/tv_porc1f"
+                android:text="Porcentagem - Aula 01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="9dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_below="@+id/tv_porc1f"
+                android:id="@+id/tv_des_porc1f"
+                android:text="Primeira aula de porcentagem com o professor Felipe Barros."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingBottom="5dp"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_porc2f"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_porc2f"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3porc2"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_porc2f"
+                    android:id="@+id/tv_porc2f"
+                    android:text="Porcentagem - Aula 02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_porc2f"
+                    android:id="@+id/tv_des_porc2f"
+                    android:text="Segunda aula de porcentagem com o professor Felipe Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_porc3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_porc3f"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3porc3"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_porc3f"
+                    android:id="@+id/tv_porc3f"
+                    android:text="Porcentagem - Aula 03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_porc3f"
+                    android:id="@+id/tv_des_porc3f"
+                    android:text="Terceira aula de porcentagem com o professor Delon Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_porcliana"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_porcliana"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod2cporc"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_porcliana"
+                    android:id="@+id/tv_porcliana"
+                    android:text="Cálculo de Porcentagem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_porcliana"
+                    android:id="@+id/tv_des_porcliana"
+                    android:text="Cálculo de porcentagem com a professora Liana Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cv_porcf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="false"
+            app:cardMaxElevation="3dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/iv_porcf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mod3porrz"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_below="@+id/iv_porcf"
+                    android:id="@+id/tv_porcf"
+                    android:text="Qual é a porcentagem?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="9dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_below="@+id/tv_porcf"
+                    android:id="@+id/tv_des_porcf"
+                    android:text="Cálculo de porcentagem com o professor Felipe Barros."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>
+</ScrollView>

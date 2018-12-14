@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.losfreitasapps.matematicabarros">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".videos.mod1div1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2mult1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.concurso"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod6rq"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod4fra1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod6esg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.integralpp"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".videos.enem1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo8"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo11"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo12"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo10"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo13"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo14"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo15"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.geo16"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.burro"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.demo1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.tv"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.estrlog"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.medarit"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3logeqlog"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3logneg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2logdiag"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.matfinloga"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod1logtabvD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.raclog1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3matepgD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3matseD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2matporF"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2logdiagD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod6logcont"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod7matconjnum"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod7logcont"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod7psg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod9fpg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod7multdiv"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.lianafracoes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod8logarglogD"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod7sismed"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5rzpro"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod8pa"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod8pg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5spd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5rzesp"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3r3sc"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod4probfra"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5logcom"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3siseq"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3porc3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10ineqpg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10ineqsg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod1geoang"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10loglaplace"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod13probab"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10matri"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3logestlog"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5logdata"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10logcramer"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2logconjop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod10logsislin"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod4logpombo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.angulosd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod4jusimd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod5propinv"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod2porceliana"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.Dicas"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3porc2f"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3porc1f"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.tirateimainss1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".videos.CatPorcentagem"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatSisLin"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatLogica"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatFinanceira"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatGeo"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatProbabilidade"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatCalculo"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatSisMedidas"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatOpBasicas"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatProgress"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatFunction"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CatEquation"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.ProfDelon"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.ProfDavi"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.ProfFelipe"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.ProfLiana"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.mod6multdiv"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.mod3porrz"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".videos.PEtapa"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.SEtapa"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.PEtapaLogica"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.SEtapaLogica"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.Geometria"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CalcRapidos"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CursosFree"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CMatematica"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".videos.CLogica"
+            android:label=""
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
